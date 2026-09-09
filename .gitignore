@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+*.log
+desktop-release/
+*.zip
+*.exe
+*.lnk
+*.wildwood.json
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

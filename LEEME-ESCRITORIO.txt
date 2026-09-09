@@ -1,0 +1,37 @@
+WILDWOOD 1.1 - Aplicacion de Windows
+
+PARA JUGAR
+Haz doble clic en Wildwood.exe dentro de la carpeta de la aplicacion.
+Tambien puedes usar Wildwood-Portable-1.1.0.exe: es un solo archivo.
+No necesitas abrir el navegador, iniciar un servidor ni instalar Node.js.
+Funciona sin conexion a Internet.
+
+Si usas la carpeta win-unpacked, conserva todos sus archivos juntos.
+No copies solamente Wildwood.exe: el archivo portable si puede copiarse solo.
+F11 alterna entre ventana y pantalla completa. Esc pausa el juego.
+
+TU MUNDO DE LA VERSION WEB
+Los guardados de la aplicacion y del navegador son independientes.
+1. En la version web: Esc > Export world. Guarda el archivo .wildwood.json.
+2. En la aplicacion: Import a saved world. Selecciona ese archivo.
+Desde entonces se guarda automaticamente dentro de la aplicacion.
+
+GUARDADO
+La aplicacion guarda tus mundos y opciones en %APPDATA%\Wildwood.
+Se conservan al cerrar, reabrir o actualizar el ejecutable.
+Puedes exportarlos para tener copias o llevarlos a otro equipo.
+Crear un mundo nuevo reemplaza el guardado activo: exporta antes el anterior.
+
+CONTROLES
+W A S D: moverse. Raton: mirar. Espacio: saltar o nadar hacia arriba.
+Shift: correr. Mantener clic izquierdo: romper bloques. Clic: atacar.
+Clic derecho: colocar, comer o usar una mesa de trabajo.
+1-9 o rueda: seleccionar. E: inventario y fabricacion. Esc: pausa.
+F: volar en Creative. Espacio sube; Ctrl o C baja. F11: pantalla completa.
+
+RENDIMIENTO
+El ejecutable usa Electron con aceleracion grafica y el mismo motor 3D.
+Se abre como una app; convertirlo a .exe no garantiza mas FPS.
+Para mejorar la fluidez, baja View distance o Render resolution en Settings.
+
+Requisitos: Windows de 64 bits compatible con Electron y graficos WebGL 2.

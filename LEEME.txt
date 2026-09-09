@@ -1,0 +1,44 @@
+WILDWOOD - Juego voxel para Windows
+
+NUEVO: APLICACION DE ESCRITORIO
+Descarga Wildwood-Portable-1.1.0.exe desde:
+https://github.com/Mateoutec/wildwood/releases/tag/v1.1.0
+Haz doble clic en el ejecutable para jugar.
+Si compilaste el codigo, tambien puedes ejecutar
+desktop-release\win-unpacked\Wildwood.exe conservando toda su carpeta.
+La guia de esta version es LEEME-ESCRITORIO.txt.
+No requiere navegador ni Node.js. F11 activa pantalla completa.
+Para llevar tu mundo web a la app, exportalo e importalo en la aplicacion.
+
+Las instrucciones de abajo corresponden a la version web original.
+
+PARA JUGAR
+1. Instala Node.js 22.12 o posterior y abre "Play Wildwood.cmd".
+2. Se abrira http://localhost:4173 en el navegador.
+3. Elige "New adventure", luego "Create world" y "Step into Wildwood".
+4. Manten abierta la ventana del lanzador mientras juegas.
+
+CONTROLES
+W A S D: moverse. Raton: mirar. Espacio: saltar/nadar.
+Shift: correr. Clic izquierdo sostenido: romper bloques.
+Clic derecho: colocar bloques, comer o usar la mesa de trabajo.
+1-9 o rueda: elegir objeto. E: inventario y fabricacion.
+Esc: pausa, opciones y guardado. F: volar en modo Creative.
+
+GUARDADO
+El mundo se guarda automaticamente en este navegador cada 30 segundos.
+Usa "Continue journey" para retomarlo.
+Para conservar varios mundos, usa Pause > Export world antes de crear otro.
+El archivo exportado se puede cargar con "Import a saved world".
+Usa siempre localhost:4173; otra direccion usa un guardado distinto.
+
+La version web necesita Node.js 22.12 o posterior y Edge o Chrome.
+El primer arranque descarga dependencias y compila el codigo; requiere Internet.
+Una vez compilado, el juego funciona sin conexion a Internet.
+
+PROYECTO
+Proyecto personal de Mateoutec, desarrollado con asistencia de ChatGPT/Codex
+para la implementacion, depuracion y pruebas.
+El repositorio contiene codigo y documentacion; el .exe se comparte en Releases.
+
+Consulta README.md para la guia completa y VALIDATION.md para las pruebas.
